@@ -184,7 +184,7 @@ public class WeldingPanel : MonoBehaviour
         }
         float idealTime = 0.419f;
         float avarageTime = weldTravels.Average();
-        float travelPerf = 1 - (Mathf.Abs(idealTime - avarageTime ))/ idealTime;
+        float travelPerf = 1 - (Mathf.Abs(idealTime - avarageTime )/ idealTime);
 
         return travelPerf;
     }
