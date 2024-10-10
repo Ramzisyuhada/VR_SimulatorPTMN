@@ -211,7 +211,7 @@ public class WedingController : MonoBehaviour
         }
 
     }
-    private void StopWelding(bool resetime = true)
+    public void StopWelding(bool resetime = true)
     {
         if (resetime)
         {
